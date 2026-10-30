@@ -1,0 +1,16 @@
+{
+  "domain": "xiquan_water",
+  "name": "硒泉供水",
+  "version": "0.1.0",
+  "documentation": "https://github.com/hlhk2017/xiquan_water",
+  "issue_tracker": "https://github.com/hlhk2017/xiquan_water/issues",
+  "requirements": [],
+  "codeowners": [
+    "@hlhk2017"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "custom_components.xiquan_water"
+  ]
+}

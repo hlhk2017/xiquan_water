@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Xiquan Water",
+        "description": "Enter the water meter parameters captured from the Xiquan Water web or WeChat page. fansid and UserId use the same value.",
+        "data": {
+          "card_id": "cardId",
+          "cookie": "Cookie",
+          "fans_id": "fansid / UserId",
+          "verify": "verfiy/openId",
+          "referer": "Referer",
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect. Please check cardId, cookie, fansid/UserId, verfiy, and network connectivity."
+    },
+    "abort": {
+      "already_configured": "This meter is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Xiquan Water options",
+        "description": "Adjust the data scan interval and display options.",
+        "data": {
+          "scan_interval": "Scan interval (seconds)",
+          "show_payment_records": "Show payment records"
+        }
+      }
+    }
+  }
+}

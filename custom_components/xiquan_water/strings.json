@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "硒泉供水",
+        "description": "输入从硒泉供水网页或微信页面抓取到的水表参数。fansid 和 UserId 使用同一个值。"
+      }
+    },
+    "error": {
+      "cannot_connect": "连接失败，请检查 cardId、cookie、fansid/UserId、verfiy 和网络。"
+    },
+    "abort": {
+      "already_configured": "这个水表已经配置过。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "硒泉供水选项",
+        "description": "调整数据刷新间隔和显示选项。",
+        "data": {
+          "scan_interval": "刷新间隔（秒）",
+          "show_payment_records": "显示充值记录"
+        }
+      }
+    }
+  }
+}
